@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library System</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="bar">
+    <span id="lib">Library System</span>
+    <span id="book" onclick="scrollToBook()">Books</span>
+    <span id="reg" onclick="register()">Register</span>
+    <span id="con">Contact us</span>
+    <span id="out">Log out</span>
+  </nav>
+  <center>
+    <div class="div-1">
+      <h2 id="bk">BOOKS</h2>
+      <table class="tab">
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <a href="#">Harry Potter and the Philosopher's Stone</a>
+            <center>
+              <table>
+                <tr>
+                  <td>Publication Date : 2014</td>
+                </tr>
+                <tr>
+                  <td>Page count : 345 </td>
+                </tr>
+                <tr>
+                  <td>ISBN : 542-267625 </td>
+                </tr>
+              </table>
+            </center>
+          </td>
+          <td>J.k Rowling</td>
+          <td>Fiction</td>
+          <td>No</td>
+
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <a href="#">The Sherlock Holmes</a>
+            <table>
+              <tr>
+                <td>Publication Date : 2010</td>
+              </tr>
+              <tr>
+                <td>Page count : 2188</td>
+              </tr>
+              <tr>
+                <td>ISBN : 76534231725A</td>
+              </tr>
+            </table>
+          </td>
+          <td>Arthur Conan Doyle</td>
+          <td>Fiction & Mystery</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            <a href="#">The Great Expectations</a>
+            <table>
+              <tr>
+                <td>Publication Date : 2009</td>
+              </tr>
+              <tr>
+                <td>Page count : 342</td>
+              </tr>
+              <tr>
+                <td>ISBN : 3671-563520</td>
+              </tr>
+            </table>
+          </td>
+          <td>Charles Dickens</td>
+          <td>Fiction & Romance</td>
+          <td>Yes</td>
+
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            <a href="#">Gulliver's Travels</a>
+            <table>
+              <tr>
+                <td>Publication Date : 2003</td>
+              </tr>
+              <tr>
+                <td>Page count : 319</td>
+              </tr>
+              <tr>
+                <td>ISBN : 198-7354634</td>
+              </tr>
+            </table>
+          </td>
+          <td>Jonathan Swift</td>
+          <td>Fiction</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>
+            <a href="#">The Wings of Fire</a>
+            <table>
+
+              <tr>
+                <td>Publication Date : 2002</td>
+              </tr>
+              <tr>
+                <td>Page count : 238</td>
+              </tr>
+              <tr>
+                <td>ISBN : 54-82634324</td>
+              </tr>
+            </table>
+          </td>
+          <td>A.P.J Abdul Kalam</td>
+          <td>Biography</td>
+          <td>Yes</td>
+        </tr>
+
+      </table>
+    </div>
+  </center>
+
+  <center>
+    <div class="div-2">
+      <h2 id="reg-2">Register</h2>
+      <hr>
+      <form action="POST" class="fom" width="100%">
+
+        <label for="first">First Name</label>
+        </br>
+        <input type="text" id="first" name="Firstname">
+        </br>
+        <label for="last">Last Name</label>
+        </br>
+        <input type="text" id="first" name="Lastname">
+        </br>
+        <label for="dob">Date-of-Birth</label>
+        </br>
+        <input type="date" id="dob" name="DOB">
+        </br>
+        <label for="age">Age</label>
+        </br>
+        <input type="number" id="age" name="Age" min="5" max="100">
+        </br>
+        <label for="mail">Email</label>
+        </br>
+        <input type="email" id="mail" name="Email">
+        </br>
+        <label for="password">Password</label>
+        </br>
+        <input type="password" id="password" name="Firstname">
+        </br>
+        <label for="password">Confirm Password</label>
+        </br>
+        <input type="password" id="first" name="Firstname">
+        </br>
+        <button>Register</button>
+      </form>
+    </div>
+  </center>
+
+  <script>
+    let body = document.querySelector('body')
+
+    function scrollToBook() {
+      console.log('hello')
+      body.scroll({
+        top: "165px",
+        behavior: "smooth",
+      });
+    }
+
+    function register() {
+        body.scroll(0,500);
+    }
+  </script>
+
+</body>
+
+</html>

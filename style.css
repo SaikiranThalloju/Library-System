@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  color: white;
+  padding: 6px;
+  z-index: 1;
+}
+
+#lib {
+  padding-right: 50%;
+  cursor: pointer;
+}
+
+#book {
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+#reg {
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+#con {
+  padding-right: 5%;
+}
+
+#out {
+  padding-right: 5%;
+}
+
+.div-1 {
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  width: 45%;
+  background: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#bk {
+  padding: 20px;
+}
+
+.tab {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.fom {
+  width: 90%;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+}
+
+#reg-2 {
+  padding: 20px;
+}
+
+.div-2 {
+  padding-bottom: 20px;
+  margin-top: 100px;
+  width: 45%;
+  background: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+  float: left;
+  margin: 8px 0px 4px 8px;
+}
+
+th,
+td,
+table {
+  border: 2px solid gray;
+  padding: 5px;
+  border-collapse: collapse;
+}
